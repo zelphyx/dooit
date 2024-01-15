@@ -90,7 +90,7 @@ Widget buildPaymentMenu(BuildContext context) {
                 children: List<Widget>.generate(numColumns, (colIndex) {
                   final index = rowIndex * numColumns + colIndex;
                   if (index >= paymentMenuItems.length) {
-                    return SizedBox(); // Jika sudah tidak ada item lagi
+                    return SizedBox();
                   }
                   final menuItem = paymentMenuItems[index];
                   return Expanded(

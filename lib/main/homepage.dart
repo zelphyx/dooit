@@ -78,15 +78,9 @@ class homepage extends GetView<textcontroller> {
           PurchaseHistoryItem(iconData: Icons.shopping_bag, productName: 'Baju Batik', price: 1500, date: '12-09-2021'),
           SizedBox(height: MediaQuery.of(context).size.height * 0.09),
                   ],
-
       ),
-
     );
   }
-}
-
-class paymentmenu {final IconData iconData;final String text;
-  paymentmenu({required this.iconData, required this.text});
 }
 
 

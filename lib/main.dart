@@ -1,4 +1,5 @@
 import 'package:dooit/binding/binding.dart';
+import 'package:dooit/main/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'main/tabbarbawah.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       initialBinding: controllerbind(),
-      home: Homepage(),
+      home: homepage(),
       debugShowCheckedModeBanner: false,
     );
   }
